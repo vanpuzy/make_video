@@ -195,7 +195,7 @@ def process_pipeline(input_file, final_output):
                 os.remove(temp_file)
 
 if __name__ == "__main__":
-    INPUT_VIDEO = "../input_videos.mp4"
+    INPUT_VIDEO = "input_videos.mp4"
     OUTPUT_VIDEO = "output_ultimate_translated.mp4"
     
     if os.path.exists(INPUT_VIDEO):
